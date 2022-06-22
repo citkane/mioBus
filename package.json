@@ -1,0 +1,26 @@
+{
+  "name": "@mio-core/miobus",
+  "version": "0.0.0",
+  "description": "Messaging BUS for mio microserver architecture",
+  "main": "./src/browser.js",
+  "exports": {
+    "import": "./src/browser.js",
+    "require": "./src/server.js"
+  },
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citkane/mioBus.git"
+  },
+  "author": "Michael Jonker",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/citkane/mioBus/issues"
+  },
+  "homepage": "https://github.com/citkane/mioBus#readme",
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  }
+}
