@@ -1,0 +1,18 @@
+
+import * as zmq from '../../node_modules/jszmq/lib/src/index.js'
+/*
+requirejs(["../../node_modules/jszmq/lib/balls"], function (zmq) {
+
+	console.log(zmq);
+
+	const sock = zmq.socket('pub'); // OR const sock = new zmq.Pub(); 
+
+	sock.bind('tcp://127.0.0.1:3000');
+	console.log('Publisher bound to port 3000');
+
+	setInterval(function () {
+		console.log('sending a multipart message envelope');
+		sock.send(['kitty cats', 'meow!']);
+	}, 500);
+});
+*/
